@@ -148,7 +148,7 @@ let choiсeModels = {
   models: [
     {
       id: "1",
-      model: "chair-red",
+      model: "chair-bezh",
       url: "./img/models/chair_04_bezh.glb",
       coordinatesX: 0.5,
       coordinatesY: -1,

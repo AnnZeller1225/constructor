@@ -25,6 +25,7 @@ a {
 p {
     margin-bottom: 10px;
     font-weight: bolder;
+    display: none;
 }
 
 .tools-box {
@@ -34,7 +35,7 @@ p {
 
 .tools-w {
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     margin-left: 10px;
     border: 2px dashed rgb(143, 140, 140);
     width: 100%;
@@ -60,16 +61,17 @@ button {
     display: block;
     word-wrap: break-word;
     transition: 0.4s linear;
-    height:46px;
+    height:30px;
     width: 100%;
     max-width: 80px;
     /* width: 70px; */
-    padding: 2px 4px;
-    margin: 3px;
+    padding: 1px 4px;
+    margin: 1px;
+    font-size: 11px;
 }
 
 button:hover {
-
+color: #faf768;
     background-color: rgb(142, 202, 202);
 }
 
@@ -79,6 +81,7 @@ button:hover {
 
 .tools-w-2 {
     display: flex;
+    display: none;
 }
 
 .pick-up {
@@ -91,6 +94,8 @@ button:hover {
     width: 140px;
     border: 1px dashed rgb(143, 140, 140);
     height: 25px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .tools-w-col {
